@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/fave-icon.png" type="image/x-icon">
+    <title>Snack</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Css Link -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+            <a href="" class="logo"><img src="./Images/logo.png" alt=""></i>Snack</a>
+            <div class="flex">
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#specialty">Menus</a>
+                    <a href="#popular">Snack</a>
+                    <a href="#contact">Contact Us</a>
+                </nav>
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <span>
+                        <div class="cart-items">0</div>
+                    </span>
+                </div>
+            </div>
+    </header>
+    <!-- end of Header -->
+
+     <!-- Cart  -->
+     <section class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <!-- end of cart item -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <!-- <button>clear cart</button> -->
+                <button class="clear-cart"><span class="text">clear cart</span><span class="icon"><svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z"></path></svg></span></button>
+            </div>
+        </div>
+    </section>
+    <!--end of  Cart  -->
+
+    <!-- Section-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Satisfy your cravings</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad nisi iusto beatae consectetur repellat in eaque fugit aperiam itaque dicta laborum voluptatum laboriosam quis ab maiores, mollitia placeat nam adipisci!</p>
+            <a href="#popular" class="button">order now</a>
+        </div>
+        <div class="image">
+            <img src="./Images/home-img.png" alt="">
+        </div>
+    </section>
+    <!-- end of Section -->
+
+    <!-- Specialty section -->
+    <section class="specialty" id="specialty">
+      <h1 class="heading">Our<span> Product</span></h1>
+      <div class="box-container">
+          <div class="box">
+              <img src="./Images/s1.jpg" alt="" class="image">
+              <div class="content">
+                <img src="./Images/pizza.png" alt="">
+                <h3>Pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, provident neque. Corrupti hic deserunt dicta?</p>
+              </div>
+          </div>
+          <div class="box">
+            <img src="./Images/s2.jpg" alt="" class="image">
+            <div class="content">
+              <img src="./Images/fries.png" alt="">
+              <h3>Fries</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, provident neque. Corrupti hic deserunt dicta?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./Images/s3.jpg" alt="" class="image">
+            <div class="content">
+              <img src="./Images/bread.png" alt="">
+              <h3>Bread</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, provident neque. Corrupti hic deserunt dicta?</p>
+            </div>
+        </div>
+        <div class="box">
+              <img src="./Images/s4.jpg" alt="" class="image">
+              <div class="content">
+                <img src="./Images/pie.png" alt="">
+                <h3>Pie</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, provident neque. Corrupti hic deserunt dicta?</p>
+              </div>
+          </div>
+          <div class="box">
+            <img src="./Images/s5.jpg" alt="" class="image">
+            <div class="content">
+              <img src="./Images/cookies.png" alt="">
+              <h3>Cookies</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, provident neque. Corrupti hic deserunt dicta?</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./Images/s6.jpg" alt="" class="image">
+            <div class="content">
+              <img src="./Images/burger.png" alt="">
+              <h3>Burger</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, provident neque. Corrupti hic deserunt dicta?</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of specialty section -->
+
+    <!-- Popular section -->
+    <section class="popular" id="popular">
+        <h1 class="heading">Available <span>Snack</span> </h1>
+        <div class="popular-container">
+            <!--Child of this popular section is in the Javascript -->
+            </div>
+ </section>
+    <!-- end Popular section -->
+
+    <!-- steps section starts  -->
+<section class="step-container">
+    <h1 class="heading">how it <span>works</span></h1>
+    <section class="steps">
+        <div class="box">
+            <img src="images/step-1.jpg" alt="">
+            <h3>click order now</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-2.jpg" alt="">
+            <h3>free and fast delivery</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-3.jpg" alt="">
+            <h3>easy payments methods</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-4.jpg" alt="">
+            <h3>and finally, enjoy your food</h3>
+        </div>
+    </section>
+</section>
+<!-- steps section ends -->
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact</span> Us</SPAn></h1>
+    <div class="contact-section">
+        <div class="contact-image">
+            <img src="./Images/contact-image.jpg" alt="">
+        </div>
+        <form action="">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+<!--end of  Contact Section -->
+
+<!-- Footer -->
+<section class="footer">
+    <div class="share">
+        <a href="#" class="button">facebook</a>
+        <a href="#" class="button">twitter</a>
+        <a href="#" class="button">instagram</a>
+        <a href="#" class="button">pinterest</a>
+        <a href="#" class="button">linkedin</a>
+    </div>
+</section>
+<!-- end of footer -->
+
+<!-- scroll top button  -->
+<a href="#home" id="scroll-top"><i class="fas fa-arrow-circle-up"></i></a>
+    <!-- Javascript -->
+    <script src="app.js"></script>
+</body>
+</html>

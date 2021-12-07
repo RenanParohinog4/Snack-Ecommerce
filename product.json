@@ -1,0 +1,53 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Pizza",
+          "price": 12.99,
+        "image":"./Images/p1.jpg"
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Fries",
+          "price": 12.99,
+          "image": "./Images/p2.jpg"
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Bread",
+          "price": 12.99,
+          "image":"./Images/p3.jpg"
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Pie",
+          "price": 22.99,
+          "image": "./Images/p4.jpg"
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+        "title": "Cookies",
+          "price": 88.99,
+          "image": "./Images/p5.jpg" 
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Burger",
+          "price": 32.99,
+          "image": "./Images/p6.jpg" 
+        }
+      }
+    ]
+  }
+  
